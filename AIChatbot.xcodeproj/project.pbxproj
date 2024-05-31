@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		429621712C0972140065B98E /* TextMessageViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429621702C0972140065B98E /* TextMessageViewModelTests.swift */; };
+		429621732C0975510065B98E /* GroupMessageViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429621722C0975510065B98E /* GroupMessageViewModelTests.swift */; };
+		429621752C09767E0065B98E /* AIChatbotViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429621742C09767E0065B98E /* AIChatbotViewModelTests.swift */; };
+		429621782C09A1520065B98E /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 429621772C09A1520065B98E /* ViewInspector */; };
+		4296217A2C09A3D00065B98E /* TextMessageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429621792C09A3D00065B98E /* TextMessageViewTests.swift */; };
+		4296217C2C09ADE50065B98E /* GroupMessageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4296217B2C09ADE50065B98E /* GroupMessageViewTests.swift */; };
+		4296217E2C09B6CB0065B98E /* AIChatbotViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4296217D2C09B6CB0065B98E /* AIChatbotViewTests.swift */; };
+		429621812C09BA990065B98E /* MockGenerativeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429621802C09BA990065B98E /* MockGenerativeModel.swift */; };
 		42A6AD0C2C08A27B00F19F14 /* AIChatbotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6AD0B2C08A27B00F19F14 /* AIChatbotApp.swift */; };
-		42A6AD0E2C08A27B00F19F14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6AD0D2C08A27B00F19F14 /* ContentView.swift */; };
+		42A6AD0E2C08A27B00F19F14 /* AIChatbotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6AD0D2C08A27B00F19F14 /* AIChatbotView.swift */; };
 		42A6AD102C08A27B00F19F14 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6AD0F2C08A27B00F19F14 /* Item.swift */; };
 		42A6AD122C08A27C00F19F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A6AD112C08A27C00F19F14 /* Assets.xcassets */; };
 		42A6AD152C08A27C00F19F14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A6AD142C08A27C00F19F14 /* Preview Assets.xcassets */; };
 		42A6AD1F2C08A27C00F19F14 /* AIChatbotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6AD1E2C08A27C00F19F14 /* AIChatbotTests.swift */; };
 		42A6AD292C08A27C00F19F14 /* AIChatbotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6AD282C08A27C00F19F14 /* AIChatbotUITests.swift */; };
 		42A6AD2B2C08A27C00F19F14 /* AIChatbotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6AD2A2C08A27C00F19F14 /* AIChatbotUITestsLaunchTests.swift */; };
+		42A6AD3B2C08A4A000F19F14 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 42A6AD3A2C08A4A000F19F14 /* GoogleGenerativeAI */; };
+		42A6AD3E2C08B41700F19F14 /* TextMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6AD3D2C08B41700F19F14 /* TextMessageView.swift */; };
+		42A6AD402C08B5DF00F19F14 /* GroupMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6AD3F2C08B5DF00F19F14 /* GroupMessageView.swift */; };
+		42A6AD432C08B66E00F19F14 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6AD422C08B66E00F19F14 /* MessageModel.swift */; };
+		42EC8D9A2C0908D6006C7721 /* TextMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EC8D992C0908D6006C7721 /* TextMessageViewModel.swift */; };
+		42EC8D9C2C090B05006C7721 /* GroupMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EC8D9B2C090B05006C7721 /* GroupMessageViewModel.swift */; };
+		42EC8D9E2C090CD4006C7721 /* AIChatbotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EC8D9D2C090CD4006C7721 /* AIChatbotViewModel.swift */; };
+		42EC8DA02C09154C006C7721 /* MessageModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EC8D9F2C09154C006C7721 /* MessageModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +51,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		429621702C0972140065B98E /* TextMessageViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMessageViewModelTests.swift; sourceTree = "<group>"; };
+		429621722C0975510065B98E /* GroupMessageViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMessageViewModelTests.swift; sourceTree = "<group>"; };
+		429621742C09767E0065B98E /* AIChatbotViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatbotViewModelTests.swift; sourceTree = "<group>"; };
+		429621792C09A3D00065B98E /* TextMessageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMessageViewTests.swift; sourceTree = "<group>"; };
+		4296217B2C09ADE50065B98E /* GroupMessageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMessageViewTests.swift; sourceTree = "<group>"; };
+		4296217D2C09B6CB0065B98E /* AIChatbotViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatbotViewTests.swift; sourceTree = "<group>"; };
+		429621802C09BA990065B98E /* MockGenerativeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGenerativeModel.swift; sourceTree = "<group>"; };
 		42A6AD082C08A27B00F19F14 /* AIChatbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIChatbot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A6AD0B2C08A27B00F19F14 /* AIChatbotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatbotApp.swift; sourceTree = "<group>"; };
-		42A6AD0D2C08A27B00F19F14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42A6AD0D2C08A27B00F19F14 /* AIChatbotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatbotView.swift; sourceTree = "<group>"; };
 		42A6AD0F2C08A27B00F19F14 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		42A6AD112C08A27C00F19F14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42A6AD142C08A27C00F19F14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +69,13 @@
 		42A6AD242C08A27C00F19F14 /* AIChatbotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIChatbotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A6AD282C08A27C00F19F14 /* AIChatbotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatbotUITests.swift; sourceTree = "<group>"; };
 		42A6AD2A2C08A27C00F19F14 /* AIChatbotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatbotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42A6AD3D2C08B41700F19F14 /* TextMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMessageView.swift; sourceTree = "<group>"; };
+		42A6AD3F2C08B5DF00F19F14 /* GroupMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMessageView.swift; sourceTree = "<group>"; };
+		42A6AD422C08B66E00F19F14 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		42EC8D992C0908D6006C7721 /* TextMessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMessageViewModel.swift; sourceTree = "<group>"; };
+		42EC8D9B2C090B05006C7721 /* GroupMessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupMessageViewModel.swift; sourceTree = "<group>"; };
+		42EC8D9D2C090CD4006C7721 /* AIChatbotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatbotViewModel.swift; sourceTree = "<group>"; };
+		42EC8D9F2C09154C006C7721 /* MessageModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A6AD3B2C08A4A000F19F14 /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				429621782C09A1520065B98E /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +105,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4296217F2C09BA6A0065B98E /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				429621802C09BA990065B98E /* MockGenerativeModel.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		42A6ACFF2C08A27B00F19F14 = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +136,14 @@
 		42A6AD0A2C08A27B00F19F14 /* AIChatbot */ = {
 			isa = PBXGroup;
 			children = (
+				42A6AD422C08B66E00F19F14 /* MessageModel.swift */,
+				42A6AD3D2C08B41700F19F14 /* TextMessageView.swift */,
+				42EC8D992C0908D6006C7721 /* TextMessageViewModel.swift */,
+				42A6AD3F2C08B5DF00F19F14 /* GroupMessageView.swift */,
+				42EC8D9B2C090B05006C7721 /* GroupMessageViewModel.swift */,
 				42A6AD0B2C08A27B00F19F14 /* AIChatbotApp.swift */,
-				42A6AD0D2C08A27B00F19F14 /* ContentView.swift */,
+				42A6AD0D2C08A27B00F19F14 /* AIChatbotView.swift */,
+				42EC8D9D2C090CD4006C7721 /* AIChatbotViewModel.swift */,
 				42A6AD0F2C08A27B00F19F14 /* Item.swift */,
 				42A6AD112C08A27C00F19F14 /* Assets.xcassets */,
 				42A6AD132C08A27C00F19F14 /* Preview Content */,
@@ -116,7 +162,15 @@
 		42A6AD1D2C08A27C00F19F14 /* AIChatbotTests */ = {
 			isa = PBXGroup;
 			children = (
+				4296217F2C09BA6A0065B98E /* Mocks */,
 				42A6AD1E2C08A27C00F19F14 /* AIChatbotTests.swift */,
+				42EC8D9F2C09154C006C7721 /* MessageModelTests.swift */,
+				429621702C0972140065B98E /* TextMessageViewModelTests.swift */,
+				429621722C0975510065B98E /* GroupMessageViewModelTests.swift */,
+				429621742C09767E0065B98E /* AIChatbotViewModelTests.swift */,
+				429621792C09A3D00065B98E /* TextMessageViewTests.swift */,
+				4296217B2C09ADE50065B98E /* GroupMessageViewTests.swift */,
+				4296217D2C09B6CB0065B98E /* AIChatbotViewTests.swift */,
 			);
 			path = AIChatbotTests;
 			sourceTree = "<group>";
@@ -146,6 +200,9 @@
 			dependencies = (
 			);
 			name = AIChatbot;
+			packageProductDependencies = (
+				42A6AD3A2C08A4A000F19F14 /* GoogleGenerativeAI */,
+			);
 			productName = AIChatbot;
 			productReference = 42A6AD082C08A27B00F19F14 /* AIChatbot.app */;
 			productType = "com.apple.product-type.application";
@@ -164,6 +221,9 @@
 				42A6AD1C2C08A27C00F19F14 /* PBXTargetDependency */,
 			);
 			name = AIChatbotTests;
+			packageProductDependencies = (
+				429621772C09A1520065B98E /* ViewInspector */,
+			);
 			productName = AIChatbotTests;
 			productReference = 42A6AD1A2C08A27C00F19F14 /* AIChatbotTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -218,6 +278,10 @@
 				Base,
 			);
 			mainGroup = 42A6ACFF2C08A27B00F19F14;
+			packageReferences = (
+				42A6AD392C08A4A000F19F14 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+				429621762C09A1520065B98E /* XCRemoteSwiftPackageReference "ViewInspector" */,
+			);
 			productRefGroup = 42A6AD092C08A27B00F19F14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,9 +324,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42A6AD0E2C08A27B00F19F14 /* ContentView.swift in Sources */,
+				42A6AD0E2C08A27B00F19F14 /* AIChatbotView.swift in Sources */,
+				42A6AD432C08B66E00F19F14 /* MessageModel.swift in Sources */,
+				42EC8D9E2C090CD4006C7721 /* AIChatbotViewModel.swift in Sources */,
+				42A6AD3E2C08B41700F19F14 /* TextMessageView.swift in Sources */,
 				42A6AD102C08A27B00F19F14 /* Item.swift in Sources */,
+				42EC8D9C2C090B05006C7721 /* GroupMessageViewModel.swift in Sources */,
 				42A6AD0C2C08A27B00F19F14 /* AIChatbotApp.swift in Sources */,
+				42A6AD402C08B5DF00F19F14 /* GroupMessageView.swift in Sources */,
+				42EC8D9A2C0908D6006C7721 /* TextMessageViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +340,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4296217E2C09B6CB0065B98E /* AIChatbotViewTests.swift in Sources */,
+				429621732C0975510065B98E /* GroupMessageViewModelTests.swift in Sources */,
+				4296217A2C09A3D00065B98E /* TextMessageViewTests.swift in Sources */,
+				429621712C0972140065B98E /* TextMessageViewModelTests.swift in Sources */,
+				429621752C09767E0065B98E /* AIChatbotViewModelTests.swift in Sources */,
+				4296217C2C09ADE50065B98E /* GroupMessageViewTests.swift in Sources */,
 				42A6AD1F2C08A27C00F19F14 /* AIChatbotTests.swift in Sources */,
+				42EC8DA02C09154C006C7721 /* MessageModelTests.swift in Sources */,
+				429621812C09BA990065B98E /* MockGenerativeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +670,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		429621762C09A1520065B98E /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.11;
+			};
+		};
+		42A6AD392C08A4A000F19F14 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		429621772C09A1520065B98E /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 429621762C09A1520065B98E /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+		42A6AD3A2C08A4A000F19F14 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42A6AD392C08A4A000F19F14 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 42A6AD002C08A27B00F19F14 /* Project object */;
 }

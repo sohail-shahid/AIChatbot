@@ -25,7 +25,7 @@ struct AIChatbotApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AIChatbotView()
         }
         .modelContainer(sharedModelContainer)
     }
